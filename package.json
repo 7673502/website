@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server --baseDir=public"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,6 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "vite": "^4.4.11"
   }
 }
